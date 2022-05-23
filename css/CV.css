@@ -20,6 +20,11 @@ h2.title{
 	left:40%;
 	top:1%;
 }
+h3.title{
+	color: #000;
+	font-size: 1.8em;
+}
+
 #globals{
 	position:absolute;
 	width:1200px;
@@ -35,7 +40,7 @@ h2.title{
 }
 .case{
 	position:relative;
-	width:760px;
+	width:750px;
 	height:500px;
 	background-color:#D3D3D3;
 	padding:5px;
@@ -51,12 +56,31 @@ h2.title{
 	 margin:10px;
 	 padding:5px;
 }
+#side_case2{
+	 position:absolute;
+	 width:300px;
+	 height:445px;
+	 margin:55px;
+	 padding:0px;
+	 background-color:#D3D3D3;
+	 left:-7%;
+}
 .HeadPic{
 	width:220px;
-	height:300px;
+	height:290px;
 	position: absolute;
-	left:11%;
-	bottom:-80%;
+	left:18%;
+	bottom:-88%;
+}
+h4.title{
+	padding:0px;
+	margin:0px;
+	color:#000;
+	font-size:2.5em;
+	position: absolute;
+	left:25%;
+	top:115%;
+	text-decoration: underline;
 }
 .side_text{
 	position:absolute;
@@ -65,5 +89,9 @@ h2.title{
 }
 #line_break{
 	padding-left:-14px;
-	padding-top:39px;
+	padding-top:18px;
+}
+#line_break2{
+	padding-left:-15px;
+	padding-top:50px;
 }
